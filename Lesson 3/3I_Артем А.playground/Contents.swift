@@ -195,7 +195,7 @@ var volvo: TrunkCar = TrunkCar(carBrand: "Volvo Trunk", yearOfManufacture: "2010
 
 print("Состояние окон: \(volvo.windowState.rawValue) ")
 volvo.window(do: .opened)
-print("Состояние окон: \(ferrari.windowState.rawValue) ")
+print("Состояние окон: \(volvo.windowState.rawValue) ")
 
 print("\n======== БелАЗ ==========")
 var belaz: TrunkCar = TrunkCar(carBrand: "БелАЗ", yearOfManufacture: "2020", trunkVolume: 100500.5, speed: 60, windowState: .closed, engineState: .stopped, trailler: false)
